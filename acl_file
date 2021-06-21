@@ -1,0 +1,10 @@
+# o usuário admin tem acesso total para publicar e receber todas as mensagens
+# assina o tópico #
+
+user admin
+topic readwrite #
+
+# o usuário luis pode acessar pode publicar e receber o tópico level
+
+user luis
+topic readwrite level
